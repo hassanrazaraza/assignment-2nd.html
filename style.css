@@ -1,0 +1,36 @@
+/* textStyle.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+/* Heading style */
+h1 {
+  text-align: center;
+  color: #0099cc;
+}
+
+/* Main paragraph style */
+p::first-letter {
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p::first-line {
+  color: blue;
+  font-style: italic;
+}
+
+/* Bonus paragraph with different color */
+.bonus::first-letter {
+  font-size: 26px;
+  color: rgb(56, 241, 155);
+  font-weight: bold;
+}
+
+.bonus::first-line {
+  color: #ff6600;
+  font-style: italic;
+}
